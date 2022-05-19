@@ -3,15 +3,42 @@
     background-color: var(--footer-bcg);
     padding-top: 60px;
     padding-bottom: 60px;
-    display: block;
+ 
 }
 .footer .conteiner{
-    display: flex;
-    align-items: baseline;
+    text-align: center;
+    @media screen and (min-width: 1200px){
+        display: flex;
+        align-items: baseline;
+    }
+   
 
 }
+.footer-top{
+    @media screen and (min-width: 768px){
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+       
+    }
+  
+}
+.footer-nav{
+    @media screen and (min-width: 768px){
+        margin-left: 61px;
+       
+    }
+    @media screen and (min-width: 1200px){
+        margin-left: 0px;
+        text-align: left;
+       
+    }
+  
+}
+
 .logo-footer{
     display: block;
+   
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 26px;
@@ -39,7 +66,12 @@
 .adress-footer{
     font-style: normal;
     box-sizing: content-box;
-
+   
+    margin-bottom: 60px;
+    @media screen and (min-width: 1200px){
+      margin-bottom: 0;
+       
+    }
 }
 
 .adress-footer .list{
@@ -53,11 +85,18 @@
 
 
 .footer-link{
-    margin-left: 70px;
+    display:block;
+    @media screen and (min-width: 768px){
+        margin-right: 74px;
+       
+    }
+    @media screen and (min-width: 1200px){
+        margin-right: 0px;
+        margin-left: 70px;
+    }
+    
 }
-.footer-link ul{
-    display: block;
-}
+
 .footer-link-text{
     margin-bottom: 20px;
     font-weight: 700;
@@ -65,15 +104,24 @@
     line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    
+    text-align: center;
     color: #FFFFFF;
+    @media screen and (min-width: 1200px){
+        text-align: left;
+    }
+    
 }
 .footer-link ul {
-    width: 206px;
    
     display: flex;
     justify-content: space-between;
-
+    width: 206px;
+    margin: 0 auto;
+    margin-bottom: 60px;
+    @media screen and (min-width: 1200px){
+     margin-bottom: 0;
+    }
+    
 }
 
 .ico-sm-footer {
@@ -105,18 +153,37 @@
 
 
 .subscribe{
-    margin-left: auto;
-}
+    display: block;
+    @media screen and (min-width: 1200px){
+     
+        margin-left: auto;
+   }
+ }
+
 .footer-input{
+    display: block;
+    margin: 0 auto;
     height: 50px;
-    width: 358px;
+    width: 100%;
+    margin-bottom: 20px;
+    
     background: transparent;
-    padding: 15px 16px;
-    margin-right: 12px;
+    //padding: 15px 16px;
+   
     border: 1px solid rgba(255, 255, 255, 0.3);
     color: #fff;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
     border-radius: 4px;
+   
+    @media screen and (min-width: 768px){
+     
+         width: 450px; 
+    }
+    @media screen and (min-width: 1200px){
+     
+        width: 358px; 
+        margin-right: 12px;
+   }
 }
 .footer-button{
     position: relative;
@@ -135,7 +202,12 @@
     cursor: pointer;
 
 }
-
+.footer-button-wrap{
+    @media screen and (min-width: 1200px){
+       display: flex;
+      
+}
+}
 
 .footer-input-svg{
     position: absolute;

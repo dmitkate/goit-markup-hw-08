@@ -19,17 +19,22 @@
 
 .hero__text {
 
-    width: 696px;
+    width: 360px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 30px;
 
     color: var(--paragraf-color);
     font-weight: 900;
-    font-size: 44px;
-    line-height: 1.36;
+    font-size: 26px;
+    line-height: 1.62;
     text-transform: uppercase;
     letter-spacing: 0.06em;
+    @media screen and (min-width: 1200px){
+        width: 696px;
+        font-size: 44px;
+        line-height: 1.36;
+    }
 }
 
 
