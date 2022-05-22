@@ -16,7 +16,8 @@
     <link rel="stylesheet" href="./css/main.min.css">
 </head>
 <body>
-    <header  class="header">
+   <!--
+       <header  class="header">
         <div class="conteiner head">
             <nav class="main-nav">
                 <a href="./index.html" class="logo"><span class="logo-studio-color">Web</span>Studio</a>
@@ -40,17 +41,20 @@
             </ul>
         </div>
         </header>
+   --> 
     <main>
         <section class="portfolio-section">
            <div class="conteiner">
                 <h1 class="hiden-text">Портфолио</h1>
-                <ul class="portfolio-button">
+               <!--
+                    <ul class="portfolio-button">
                     <li class="list"><button type="button" class="button-portfolio">Все</button></li>
                     <li class="list"><button type="button" class="button-portfolio">Веб-сайты</button></li>
                     <li class="list"><button type="button" class="button-portfolio">Приложения</button></li>
                     <li class="list"><button type="button" class="button-portfolio">Дизайн</button></li>
                     <li class="list"><button type="button" class="button-portfolio">Маркетинг</button></li>
                 </ul>
+               -->
                 <ul class="portfolio-item">
                     <li class="list portfolio-item-li">
                         <a href="https://www.instagram.com/" class="text-decoratio-none">
@@ -197,54 +201,55 @@
            </div>
         </section>
     </main>
-<footer class="footer">
-    <div class="conteiner">
-        <div>
-            <a href="./index.html" class="logo-footer"><span class="logo-studio-color">Web</span>Studio</a>
-            <address class="adress-footer">
-                <ul>
-                    <li class="list">
-                        <p>г. Киев, пр-т Леси Украинки, 26</p>
-                    </li>
-                    <li class="list"><a href="mailto:info@devstudio.com"
-                            class="footer-navigation">info@devstudio.com</a></li>
-                    <li class="list"><a href="tel:+380961111111" class="footer-navigation">+38 096 111 11 11</a></li>
-                </ul>
-            </address>
+    <footer class="footer">
+        <div class="conteiner">
+         <div class="footer-top">
+            <div class="footer-nav">
+              <a href="./index.html" class="logo-footer"><span class="logo-studio-color">Web</span>Studio</a>
+              <address class="adress-footer">
+                  <ul>
+                      <li class="list">
+                          <p>г. Киев, пр-т Леси Украинки, 26</p>
+                      </li>
+                      <li class="list"><a href="mailto:info@devstudio.com" class="footer-navigation">info@devstudio.com</a></li>
+                      <li class="list"><a href="tel:+380961111111" class="footer-navigation">+38 096 111 11 11</a></li>
+                  </ul>
+              </address>
+            </div>
+        
+          
+               <div class="footer-link">
+                <p class="footer-link-text">присоединяйтесь</p>
+                   <ul>
+                   <li class="list"><a href="" class="ico-sm-footer"><svg width="20" height="20">
+                      <use href="./images/icon/symbol-defs.svg#icon-instagram"></use>
+                  </svg></a></li>
+                  <li class="list"><a href="" class="ico-sm-footer"><svg width="20" height="20">
+                      <use href="./images/icon/symbol-defs.svg#icon-twitter"></use>
+                  </svg></a></li>
+                  <li class="list" ><a href="" class="ico-sm-footer"><svg width="20" height="20">
+                      <use href="./images/icon/symbol-defs.svg#icon-facebook"></use>
+                  </svg></a></li>
+                  <li class="list" ><a href="" class="ico-sm-footer"><svg width="20" height="20">
+                      <use href="./images/icon/symbol-defs.svg#icon-linkedi"></use>
+                  </svg></a></li>
+              </ul>
+               </div> 
+          </div>
+          <div class="subscribe">
+              <p class="footer-link-text">Подпишитесь на рассылку</p>
+              
+              <form class="footer-button-wrap">
+                  <input type="email" name="footer-input" id="footer-input" placeholder="E-mail" class="footer-input">
+                  <button type="submit" class="footer-button">Подписаться
+                  <svg width="24" height="24" class="footer-input-svg">
+                      <use href="./images/icon/symbol-defs.svg#iconsend"></use>
+                  </svg>
+                 </button>
+              </form>
+          </div>
         </div>
-
-        <div class="footer-link">
-            <p class="footer-link-text">присоединяйтесь</p>
-            <ul>
-                <li class="list"><a href="" class="ico-sm-footer"><svg width="20" height="20">
-                            <use href="./images/icon/symbol-defs.svg#icon-instagram"></use>
-                        </svg></a></li>
-                <li class="list"><a href="" class="ico-sm-footer"><svg width="20" height="20">
-                            <use href="./images/icon/symbol-defs.svg#icon-twitter"></use>
-                        </svg></a></li>
-                <li class="list"><a href="" class="ico-sm-footer"><svg width="20" height="20">
-                            <use href="./images/icon/symbol-defs.svg#icon-facebook"></use>
-                        </svg></a></li>
-                <li class="list"><a href="" class="ico-sm-footer"><svg width="20" height="20">
-                            <use href="./images/icon/symbol-defs.svg#icon-linkedi"></use>
-                        </svg></a></li>
-            </ul>
-        </div>
-        <div class="subscribe">
-            <p class="footer-link-text">Подпишитесь на рассылку</p>
-            
-            <form class="footer-button-wrap">
-                <input type="email" name="footer-input" id="footer-input" placeholder="E-mail" class="footer-input">
-                <button type="submit" class="footer-button">
-                    Подписаться
-                    <svg width="24" height="24" class="footer-input-svg">
-                        <use href="./images/icon/symbol-defs.svg#iconsend"></use>
-                    </svg>
-                </button>
-            </form>
-        </div>
-    </div>
-</footer>
+      </footer>
 <script src="./js/modal.js"></script>
 </body>
 
