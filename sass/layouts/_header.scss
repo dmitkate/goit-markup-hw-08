@@ -157,14 +157,17 @@
 }
 .mob-menu{
     position: fixed;
+   
     z-index: 1;
     top: 0;
     left: 0;
-    padding: 48px 40px;
+    //
     background-color: #fff;
     width: 100vw;
     height: 100vh;
+   
     .container {
+        padding: 48px 40px;
         overflow-y: auto;
         display: flex;
         flex-direction: column;
@@ -176,7 +179,9 @@
 .mob-menu__btn{
 
     display: block;
-    margin-left: auto;
+  margin-left: auto;
+  margin-top: 15px;
+
     border-color: transparent;
     background-color: transparent;
     cursor: pointer;
@@ -274,4 +279,8 @@
     }
     .no-scrol{
         overflow: hidden;
+    }
+    .mob-menu-bottom{
+       display: block;
+     bottom:0;
     }

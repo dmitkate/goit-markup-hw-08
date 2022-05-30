@@ -308,13 +308,13 @@ body {
   z-index: 1;
   top: 0;
   left: 0;
-  padding: 48px 40px;
   background-color: #fff;
   width: 100vw;
   height: 100vh;
 }
 
 .mob-menu .container {
+  padding: 48px 40px;
   overflow-y: auto;
   display: flex;
   flex-direction: column;
@@ -326,6 +326,7 @@ body {
 .mob-menu__btn {
   display: block;
   margin-left: auto;
+  margin-top: 15px;
   border-color: transparent;
   background-color: transparent;
   cursor: pointer;
@@ -426,6 +427,11 @@ body {
 
 .no-scrol {
   overflow: hidden;
+}
+
+.mob-menu-bottom {
+  display: block;
+  bottom: 0;
 }
 
 .hero {
@@ -1075,27 +1081,53 @@ body {
 
 .portfolio-button {
   display: flex;
+  flex-wrap: wrap;
   margin-bottom: 34px;
-  justify-content: center;
+}
+
+@media screen and (min-width: 768px) {
+  .portfolio-button {
+    justify-content: center;
+    margin-bottom: 30px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .portfolio-button {
+    margin-bottom: 50px;
+  }
 }
 
 .portfolio-button li {
   margin-right: 8px;
+  margin-bottom: 15px;
 }
 
 .portfolio-button li:last-child {
   margin-right: 0;
 }
 
+@media screen and (min-width: 768px) {
+  .portfolio-button li {
+    margin-bottom: 0;
+  }
+}
+
 .portfolio-item {
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
   margin-bottom: -30px;
-  margin-right: -30px;
+}
+
+@media screen and (min-width: 768px) {
+  .portfolio-item {
+    margin-right: -30px;
+  }
 }
 
 .portfolio-item-li {
-  width: 370px;
+  width: 100%;
   margin-bottom: 30px;
   border-right: 1px solid var(--border-portgolio);
   border-left: 1px solid var(--border-portgolio);
