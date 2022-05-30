@@ -242,6 +242,7 @@
 }
 .mob-sm{
     display: flex;
+    flex-wrap: wrap;
     li{
         display: block;
         padding-left: 10px;

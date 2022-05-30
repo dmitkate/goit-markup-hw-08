@@ -389,6 +389,7 @@ body {
 
 .mob-sm {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .mob-sm li {
