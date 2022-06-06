@@ -171,8 +171,8 @@
         overflow-y: auto;
         display: flex;
         flex-direction: column;
-        width: 100vw;
-        height: 100vh;
+        align-items: flex-start;
+        height: 90vh;
         justify-content: space-between;
      
       }
@@ -244,6 +244,7 @@
 .mob-sm{
     display: flex;
     flex-wrap: wrap;
+   
     li{
         display: block;
         padding-left: 10px;
@@ -279,10 +280,7 @@
     }
     
     }
-    .no-scrol{
-        overflow: hidden;
-    }
-    .mob-menu-bottom{
-       display: block;
-     bottom:0;
-    }
+.no-scrol{
+    overflow: hidden;
+}
+    

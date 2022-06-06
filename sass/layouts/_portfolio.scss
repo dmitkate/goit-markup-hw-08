@@ -127,8 +127,10 @@
    position: relative; 
    overflow: hidden;
 }
-.wrap-text-portfolio img{
-    display: block;
+.wrap-text-portfolio picture{
+ display:flex;
+ align-items: center;
+ justify-content: center;
 }
 .text-top{
     position: absolute;

@@ -317,8 +317,8 @@ body {
   overflow-y: auto;
   display: flex;
   flex-direction: column;
-  width: 100vw;
-  height: 100vh;
+  align-items: flex-start;
+  height: 90vh;
   justify-content: space-between;
 }
 
@@ -427,11 +427,6 @@ body {
 
 .no-scrol {
   overflow: hidden;
-}
-
-.mob-menu-bottom {
-  display: block;
-  bottom: 0;
 }
 
 .hero {
@@ -1212,8 +1207,10 @@ body {
   overflow: hidden;
 }
 
-.wrap-text-portfolio img {
-  display: block;
+.wrap-text-portfolio picture {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .text-top {
